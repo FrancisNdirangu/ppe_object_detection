@@ -1,0 +1,11 @@
+path: ./yolo_dataset    # or the absolute path if you prefer
+train: images/train
+val: images/val
+
+nc: 5
+names:
+  - Mask
+  - Face Shield
+  - Full Cover
+  - Gloves
+  - Goggles
