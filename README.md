@@ -17,12 +17,22 @@ make a plan of what libraries you are going to use
 state what you understand
 
 state what parts you are fuzzy about
+creating a batch of the training image and the label txt file
+
 
 state what parts you currently have no idea about that you need to learn
-
+how to import the yolo library
+how to run the model for classification
+how to unfreeze layers for finetuning
+how to run the model on gpu
 
 What is the sequence of events that must take place in your program for it to run successfully
-
+run the model on the test set to see its baseline performance
+plot the map metric that will measure performance
+unfreeze some layers
+finetune the model on the training set
+use the test set to evaluate the performance of the model
+plot the performance of the model (map plot)
 
 What is the evaluation metric that you will use to measure success
-
+map@0.5:0.95
